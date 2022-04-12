@@ -1,0 +1,13 @@
+# 37. Git estilo de trabajo trunk based
+https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development
+# 38. Git Estilo de trabajo gitflow y conclusiones gitflow vs trunk-based
+https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+
+# 43. Crear un repositorio con el estilo gitflow
+https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+
+# Cuenta github y token
+Usuario Acceso: e2e.20180529@gmail.com
+Password: Yan*202001
+Usuario github: Monito2021
+token: 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

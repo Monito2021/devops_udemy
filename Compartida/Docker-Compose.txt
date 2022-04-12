@@ -1,0 +1,19 @@
+# Docker Compose es una herramienta para definir y ejecutar aplicaciones Docker de varios contenedores. En Compose, se usa un archivo YAML para configurar los servicios de la aplicación. Después, con un solo comando, se crean y se inician todos los servicios de la configuración.
+
+# Para iniciar o hacer pull a las imagenes, desde el archivo YAML con el nombre docker-compose.yml
+> docker-compose pull
+
+# Para iniciar o hacer pull a las imagenes, desde el archivo YAML, en caso se use un archivo con nombre distinto a docker-compose.yml. Por ejemplo si el archivo tiene el nombre stackdb.yml
+> docker-compose -f stackdb.yml pull
+
+# Listar todas las imagenes
+> docker image ls
+
+# Para iniciar las imagenes. Donde "up" permite iniciar y "-d" ejecuta en 2do plano
+> docker-compose -f stackdb.yml up -d
+
+# Listar los contenedores. Validar los puertos
+> docker ps -a
+
+# Detener contenedores si no se estan usando (liberar memoria)
+> docker stop adminer

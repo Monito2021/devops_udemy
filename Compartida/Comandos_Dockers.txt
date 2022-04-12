@@ -1,0 +1,31 @@
+# para descargar y hacer pull de la imagen o crearlo dentro de un contenedor se debe indicar:
+> docker pull sotobotero/udemy-devops:0.0.1
+
+# Indicar a Docker que ejecute un contenedor partiendo de la imagen sotobotero/udemy-devops:0.0.1
+# y le dará el nombre billingapp, usando el puerto 80 para la aplicacion hecha en angular
+# y el puerto 8080 para el microservicio hecho en swagger
+> docker run -p 80:80 -p 8080:8080 --name billingapp sotobotero/udemy-devops:0.0.1
+
+# Listar todas las imagenes
+> docker image ls
+
+# Listar los contenedores parados (apagados)
+> docker ps -a
+
+# Para iniciar un contenedor, se indica el id o el nombre del contenedor
+> docker start billingapp
+
+# Para ver el log de un contenedor
+> docker logs billingapp
+
+# Para detener un contenedor, se indica el id o el nombre del contenedor
+> docker stop billingapp
+
+# Para eliminar un contenedor, se indica el id o el nombre del contenedor
+> docker rm billingapp
+
+# Para eliminar una imagen y todas sus dependencias, se indica el id o el nombre de la imagen
+> docker image rm sotobotero/udemy-devops:0.0.1
+
+# Cuenta DOcker creada:
+Usuario/Pass: e2e.20180529@gmail.com/blahigtblahigt
