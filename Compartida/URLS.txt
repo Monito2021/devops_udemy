@@ -1,0 +1,11 @@
+https://hub.docker.com/r/sotobotero/udemy-devops/
+
+Descargar imagen de sotobotero:
+> docker pull sotobotero/udemy-devops:0.0.1
+
+docker run -p 80:80 -p 8080:8080 --name billingapp sotobotero/udemy-devops:0.0.1
+
+Al entrar al link http://localhost:8080/swagger-ui/index.html
+Usuario: admin/admin
+
+Para detener el servicio, hacer CTRL+C
